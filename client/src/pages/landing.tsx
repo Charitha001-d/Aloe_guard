@@ -24,7 +24,7 @@ export default function Landing() {
       {/* Header with Branding */}
       <header className="pt-12 px-8 text-center">
         <AloeGuardLogo size="xl" />
-        <p className="text-[#063528]/80 text-sm mt-2">AI-Powered Plant Disease Detection</p>
+        <p className="text-[#063528]/80 text-sm mt-2">AI-Powered Aloe Plant Disease Detection</p>
       </header>
 
       {/* Hero Section */}
@@ -39,7 +39,7 @@ export default function Landing() {
         </h1>
         
         <p className="text-[#063528]/70 text-center mb-8 leading-relaxed">
-          Instantly detect plant diseases with AI-powered analysis. Get expert recommendations and track your plant's health journey.
+          Instantly detect Aloe plant diseases with AI-powered analysis. Get expert recommendations and track your aloe plant's health journey.
         </p>
 
         {/* Feature highlights */}
