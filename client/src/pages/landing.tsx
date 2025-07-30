@@ -37,33 +37,14 @@ export default function Landing() {
         <h1 className="[font-family:'Roboto',Helvetica] font-bold text-[#063528] text-2xl text-center mb-4">
           Keep Your Plants Healthy
         </h1>
-        
+         {/*Changed the text to be more concise */}
         <p className="text-[#063528]/70 text-center mb-8 leading-relaxed">
-          Instantly detect Aloe plant diseases with AI-powered analysis. Get expert recommendations and track your aloe plant's health journey.
+          Quickly find out if your Aloe plant is sick using AI. Get helpful tips and keep track of your plant’s health.
         </p>
 
-        {/* Feature highlights */}
-        <div className="w-full space-y-4 mb-8">
-          <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 bg-[#1c8567]/20 rounded-full flex items-center justify-center">
-              <Camera className="w-4 h-4 text-[#1c8567]" />
-            </div>
-            <span className="text-[#063528]/80">Instant disease detection</span>
-          </div>
-          <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 bg-[#1c8567]/20 rounded-full flex items-center justify-center">
-              <BrainCircuit className="w-4 h-4 text-[#1c8567]" />
-            </div>
-            <span className="text-[#063528]/80">AI-powered analysis</span>
-          </div>
-          <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 bg-[#1c8567]/20 rounded-full flex items-center justify-center">
-              <MapPin className="w-4 h-4 text-[#1c8567]" />
-            </div>
-            <span className="text-[#063528]/80">Regional disease mapping</span>
-          </div>
-        </div>
 
+        {/* Removed extra Feature highlights */}
+      
         <Link href="/signup" className="w-full">
           <Button className="w-full bg-[#1c8567] hover:bg-[#063528] text-white font-medium py-4 px-6 rounded-xl shadow-lg">
             Get Started
