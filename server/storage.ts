@@ -23,6 +23,7 @@ export interface IStorage {
 
 export class MemStorage implements IStorage {
   private users: Map<number, User>;
+  
   private plantAnalyses: Map<number, PlantAnalysis>;
   private diseaseReports: Map<number, DiseaseReport>;
   private userFeedback: Map<number, UserFeedback>;
